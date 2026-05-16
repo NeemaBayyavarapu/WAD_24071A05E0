@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membership Form</title>
+</head>
+
+<body bgcolor="lightblue">
+
+<center>
+
+<h2>Membership Plan Form</h2>
+
+<form action="MembershipFeeServlet" method="post">
+
+    Name:
+    <input type="text" name="name" required>
+
+    <br><br>
+
+    Select Plan:
+
+    <select name="plan">
+
+        <option value="Basic">Basic</option>
+        <option value="Standard">Standard</option>
+        <option value="Premium">Premium</option>
+
+    </select>
+
+    <br><br>
+
+    <input type="submit" value="Calculate Fee">
+
+</form>
+
+</center>
+
+<footer style="
+position:fixed;
+bottom:0;
+width:100%;
+background:black;
+color:white;
+text-align:center;
+padding:10px;">
+
+Copyright © 24071A05E0
+
+</footer>
+
+</body>
+</html>
